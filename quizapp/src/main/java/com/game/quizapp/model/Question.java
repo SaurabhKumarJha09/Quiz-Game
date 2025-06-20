@@ -12,9 +12,7 @@ public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
-    private Integer Section;
-
+    
     private String questionTitle;
 
     private String option1;
